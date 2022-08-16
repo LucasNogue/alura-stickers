@@ -11,11 +11,10 @@ public class Main {
         //ExtratorDeConteudoIMDB extrator = new ExtratorDeConteudoIMDB();
 
         //Conexão com a API da NASA
-        //String url = "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&start_date=2022-06-12&end_date=2022-06-14";
+        String url = "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&start_date=2022-06-12&end_date=2022-06-14";
         //ExtratorDeConteudoDaNasa extrator = new ExtratorDeConteudoDaNasa();
 
         //Conexão com a API de linguagens
-        String url = "https://alura-linguagens-api-lucas-nog.herokuapp.com/linguagens";
         ExtratorDeConteudo extrator = new ExtratorDeConteudoIMDB();
 
         var http = new ClienteHttp();
